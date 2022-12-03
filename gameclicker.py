@@ -73,13 +73,13 @@ score1 = 0     # очки нажатий на первый объект и т.д
 score2 = 0
 score3 = 0
 
-start_IMAGE0 = pygame.image.load(r'venv\resources\0StartTheGame.jpg') # Стрелка для начала игры
-TARGET_IMAGE1 = pygame.image.load(r'venv\resources\1RedSquare.jpg')  # загружаем 1 картинку прописав функцию load у модуля image в pygame.
+start_IMAGE0 = pygame.image.load(r'resources\0StartTheGame.jpg') # Стрелка для начала игры
+TARGET_IMAGE1 = pygame.image.load(r'resources\1RedSquare.jpg')  # загружаем 1 картинку прописав функцию load у модуля image в pygame.
                                                         # Можно прописать точный адрес до картинки, либо можно просто написать название картинки, если она лежит в той же папке, что и наш проект
                                                         # создаем поверхность с нашей картинкой
-TARGET_IMAGE2 = pygame.image.load(r'venv\resources\2GreenSquare.jpg') # загружаем остальные
+TARGET_IMAGE2 = pygame.image.load(r'resources\2GreenSquare.jpg') # загружаем остальные
 TARGET_IMAGE3 = pygame.image.load(r'venv\resources\3YellowSquare.jpg')
-exit_IMAGE4 = pygame.image.load(r'venv\resources\4exit.jpg')
+exit_IMAGE4 = pygame.image.load(r'resources\4exit.jpg')
 
 start_IMAGE0 = pygame.transform.scale(start_IMAGE0, (120, 120))
 TARGET_IMAGE1 = pygame.transform.scale(TARGET_IMAGE1, (120, 120))     # выставляем размеры картинки
