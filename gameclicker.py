@@ -1,3 +1,4 @@
+<script src="https://gist.github.com/ArtemLutov/77c608617e0ef1e6bc61f30b527a7f17.js"></script>
 from random import *    # достаем вообще всё из random
 from pygame import *    # достаем вообще всё из pygame
 from ctypes import *
